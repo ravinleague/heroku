@@ -1,0 +1,9 @@
+    <div class="card" style="cursor: pointer; cursor: hand;" ng-click="getMovieDetails(movie.title,movie.overview,movie.backdrop_path,movie.release_date,movie.vote_average)">
+            <div class="card-image">
+                <img class="img-responsive" ng-src="{{movie.backdrop_path!=null?imageSrcPrefix+movie.backdrop_path:imageStaticIconSrc}}">
+                </div><!-- card image -->
+                
+                <div class="card-content">
+                    <span class="card-title">{{movie.title}}</span>                    
+                </div><!-- card content -->
+        </div>
