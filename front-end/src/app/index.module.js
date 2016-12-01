@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('angularmoviedb', ['ngRoute', 'toastr','ngDialog']);
+    .module('angularmoviedb', ['ngRoute', 'toastr','ngDialog','jkAngularRatingStars']);
 
 })();
